@@ -77,7 +77,7 @@ class Projectile():
         return True
 
 
-screenSize(800, 800)
+screenSize(400, 400)
 setBackgroundColour([10,40,40])
 p = Player()
 bullets = []  # make an empty list of bullets
