@@ -15,16 +15,16 @@ while True:
         frame = (frame+1)%8                         # There are 8 frames of animation in each direction
         nextFrame += 80                             # so the modulus 8 allows it to loop
 
-    if keyPressed("num6"):
+    if keyPressed("d"):
         changeSpriteImage(testSprite, 0*8+frame)    # 0*8 because right animations are the 0th set in the sprite sheet
 
-    elif keyPressed("num2"):
+    elif keyPressed("s"):
         changeSpriteImage(testSprite, 1*8+frame)    # down facing animations are the 1st set
 
-    elif keyPressed("num4"):
+    elif keyPressed("a"):
         changeSpriteImage(testSprite, 2*8+frame)    # and so on
 
-    elif keyPressed("num8"):
+    elif keyPressed("w"):
         changeSpriteImage(testSprite, 3*8+frame)
 
     else:
